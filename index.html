@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <style>
+        .breakdance .bde-popup.breakdance-popup-open,
+        .breakdance .bde-popup.breakdance-popup-open .breakdance-popup,
+        .breakdance .bde-popup.breakdance-popup-animating,
+        .breakdance .bde-popup.breakdance-popup-animating .breakdance-popup {
+            visibility: visible;
+            opacity: 1;
+            z-index: 10000;
+            pointer-events: unset;
+        }
+
+        .bde-popup.breakdance-popup-open {
+            z-index: 999;
+        }
+
+        .bde-popup-143686-100 {
+            background-color: rgba(0, 0, 0, 0.8);
+        }
+
+        .bde-popup .breakdance-popup-content {
+            background-color: var(--bde-background-color);
+            display: flex;
+            align-items: flex-start;
+            flex-direction: column;
+            max-width: 100%;
+            width: 100%;
+            height: 100%;
+            text-align: left;
+            padding: 30px;
+            overflow: auto;
+        }
+
+        .bde-popup-143686-100 .breakdance-popup-content {
+            border-radius: 3px;
+            padding-left: 0px;
+            padding-right: 0px;
+            padding-bottom: 0px;
+            padding-top: 0px;
+        }
+
+        .breakdance .bde-popup,
+        .breakdance .bde-popup .breakdance-popup {
+            opacity: 0;
+            visibility: hidden;
+            z-index: -1;
+            pointer-events: none;
+        }
+
+        .aa_prom_btn {
+            margin-top: 6px;
+            background: #1E1E1E;
+            box-shadow: 0px 4px 14px rgba(31, 113, 72, 0.4);
+            border-radius: 4px;
+            border: none;
+            padding: 10px;
+            font-weight: 500;
+            font-size: 12px;
+            line-height: 15px;
+            /* identical to box height */
+
+            text-align: center;
+
+            color: #FFFFFF;
+        }
+
+        .bde-rich-text-143686-106 input {
+            outline: none;
+            border: none;
+            box-shadow: 0px 4px 14px rgba(31, 113, 72, 0.4);
+            border-radius: 4px;
+            padding: 10px;
+            font-weight: 500;
+            font-size: 13px;
+            line-height: 15px;
+            /* identical to box height */
+
+            text-align: center;
+
+            color: #1E1E1E;
+        }
+
+        .bde-rich-text-143686-103 p {
+            font-size: 12px;
+        }
+
+        .hide {
+            opacity: 0 !important;
+            transition: 0.2s ease;
+        }
+
+        .bde-rich-text-143686-106 {
+            display: flex;
+            flex-direction: column;
+            max-width: 252px;
+            margin: 0 auto;
+        }
+        @media only screen and (max-width: 767px) and (min-width:421px) {
+            .bde-popup {
+                padding-left: 0.625rem;
+                padding-right: 0.625rem;
+                width: -webkit-fill-available !important;
+            }
+          
+        }
+        @media only screen and (max-width: 420px) and (min-width:320px) {
+            .bde-popup .breakdance-popup{
+                width: auto !important;
+            }
+            .bde-popup {
+                padding-left: 0.625rem;
+                padding-right: 0.625rem;
+                width: auto !important;
+            }
+        }
+
+        .bde-section {
+            padding-top: 120px;
+            max-width: 400px;
+            margin: 0 auto;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 20px;
+            /* or 125% */
+
+            text-align: center;
+
+            color: #FFFFFF;
+        }
+
+
+        .bde-popup .breakdance-popup {
+            position: relative;
+            display: flex;
+            max-width: 100%;
+            max-height: 100%;
+            width: 642px;
+            height: 434px;
+            background: url('https://i.ibb.co/Hx9nHn9/bg-popup.jpg');
+        }
+
+        .breakdance-popup-close-icon {
+            background: rgba(0, 0, 0, 0.8);
+            padding: 6px 6px;
+            position: absolute;
+            right: 0;
+            z-index: 40;
+            width: 24px;
+        }
+
+        .breakdance-popup-close-icon svg {
+            display: flex;
+        }
+
+        .opens {
+            opacity: 1 !important;
+            z-index: 999 !important;
+            transition: 0.3s ease-in-out;
+        }
+
+        .bde-popup {
+            transition: 0.3s ease-in-out;
+            opacity: 0;
+            z-index: -1;
+            width: 100%;
+            height: calc(100% - var(--wp-admin--admin-bar--height, 0px));
+            position: fixed;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            top: var(--wp-admin--admin-bar--height, 0px);
+            left: 0;
+        }
+    </style>
+    2s2sws2s22s
+    <div class="bde-popup-143686-100 bde-popup breakdance-popup-open">
+        <div class="breakdance-popup" data-breakdance-popup-id="143686" style="">
+            <div class="breakdance-popup-content">
+                <section class="bde-section-143686-101 bde-section">
+                    <div class="section-container">
+                        <div class="bde-rich-text-143686-102 bde-rich-text breakdance-rich-text-styles">
+
+                            <p>Świąteczne rabaty <strong>10%</strong> na wszystkie produkty* z kodem
+                                <strong><u>FOODEX2023.</u></strong>
+                            </p>
+                            <p>Skopiuj kod i zrób zakupy za minimum <strong>300 zł</strong>,<br>a otrzymasz rabat
+                                <strong>10%</strong> na cały koszyk.
+                            </p>
+                        </div>
+                        <div class="bde-rich-text-143686-106 bde-rich-text breakdance-rich-text-styles">
+
+                            <input type="text" value="FOODEX2023
+" id="aa_myInput">
+                            <button class="aa_prom_btn" onclick="myFunction()">Skopiuj kod</button>
+                            <script>
+                                function myFunction() {
+                                    // Get the text field
+                                    var copyText = document.getElementById("aa_myInput");
+
+                                    // Select the text field
+                                    copyText.select();
+                                    copyText.setSelectionRange(0, 99999); // For mobile devices
+
+                                    // Copy the text inside the text field
+                                    navigator.clipboard.writeText(copyText.value);
+
+                                    // Alert the copied text
+                                    alert("Skopiowaleś kod: " + copyText.value + " (wprowadź go teraz w Koszyku)");
+                                }
+                            </script>
+                        </div>
+                        <div class="bde-rich-text-143686-103 bde-rich-text breakdance-rich-text-styles">
+
+                            <p>*kod rabatowy nie obejmuje produktów alkoholowych</p>
+                        </div>
+                    </div>
+                </section>
+            </div>
+            <div class="breakdance-popup-close-button breakdance-popup-position-top-right"
+                data-breakdance-popup-reference="143686" data-breakdance-popup-action="close">
+                <div class="breakdance-popup-close-icon">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M16.2427 7.75739L7.75739 16.2427M16.2427 16.2426L7.75739 7.75734" stroke="white"
+                            stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.js"
+        integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <script>
+        let popup = document.querySelector('.bde-popup');
+        var close = document.querySelector('.breakdance-popup-close-icon');
+        window.onload = function () {
+            setTimeout(function () {
+                close.addEventListener('click', () => {
+                    $('.bde-popup').removeClass('opens');
+                })
+                $('.bde-popup').addClass('opens');
+            }, 2000);
+        }
+
+
+
+
+        jQuery(function ($) {
+            $(document).mouseup(function (e) { // событие клика по веб-документу
+                var divs = $(".breakdance-popup"); // тут указываем ID элемента
+                if (!divs.is(e.target) // если клик был не по нашему блоку
+                    && divs.has(e.target).length === 0) { // и не по его дочерним элементам
+                    $('.bde-popup').removeClass('opens'); // скрываем его
+                }
+            });
+        });
+    </script>
+</body>
+
+</html>
